@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-download_icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="download_icon" clip-path="url(#clip-download_icon)">
+    <rect width="24" height="24" fill="#fff"/>
+    <g id="Group_136" data-name="Group 136" transform="translate(25720 864) rotate(180)">
+      <rect id="Rectangle_253" data-name="Rectangle 253" width="24" height="24" transform="translate(25696 840)" fill="none"/>
+      <g id="noun_arrow_upload_839196" data-name="noun_arrow upload_839196" transform="translate(25701.328 844.498)">
+        <g id="Group_135" data-name="Group 135">
+          <path id="Path_809" data-name="Path 809" d="M30.2,26.272a.885.885,0,0,0-1.25,0l-4.905,4.905a.882.882,0,0,0,0,1.247.945.945,0,0,0,1.3,0l3.341-3.29v8.784a.882.882,0,1,0,1.764,0v-9L33.878,32.4a.851.851,0,0,0,1.221,0,.866.866,0,0,0,.246-.623.886.886,0,0,0-.265-.623Z" transform="translate(-22.951 -23.806)"/>
+          <path id="Path_810" data-name="Path 810" d="M32.346,16H20.882a.882.882,0,0,0,0,1.764H32.346a.882.882,0,0,0,0-1.764Z" transform="translate(-20 -16)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
