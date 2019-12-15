@@ -1,0 +1,447 @@
+.typing_loader{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    -webkit-animation: typing 1s linear infinite alternate;
+    -moz-animation: typing 1s linear infinite alternate;
+    -ms-animation: typing 1s linear infinite alternate;
+    animation: typing 1s linear infinite alternate;
+    position: relative;
+    left: -12px;
+    margin: 7px 15px 6px;
+}
+.to .typing_loader {
+    animation: typing-black 1s linear infinite alternate;
+}
+
+
+@-webkit-keyframes typing{
+    0%{
+        background-color: rgba(255,255,255, 1);
+        box-shadow: 12px 0px 0px 0px rgba(255,255,255,0.4),
+        24px 0px 0px 0px rgba(255,255,255,0.2);
+    }
+    50% {
+        background-color: rgba(255,255,255, 0.4);
+        box-shadow: 12px 0px 0px 0px rgba(255,255,255,1),
+        24px 0px 0px 0px rgba(255,255,255,0.4);
+    }
+    100%{ background-color: rgba(255,255,255, 0.2);
+        box-shadow: 12px 0px 0px 0px rgba(255,255,255,0.4),
+        24px 0px 0px 0px rgba(255,255,255,1);
+    }
+}
+
+@-moz-keyframes typing{
+    0%{
+        background-color: rgba(255,255,255, 1);
+        box-shadow: 12px 0px 0px 0px rgba(255,255,255,0.4),
+        24px 0px 0px 0px rgba(255,255,255,0.2);
+    }
+    50% {
+        background-color: rgba(255,255,255, 0.4);
+        box-shadow: 12px 0px 0px 0px rgba(255,255,255,1),
+        24px 0px 0px 0px rgba(255,255,255,0.4);
+    }
+    100%{ background-color: rgba(255,255,255, 0.2);
+        box-shadow: 12px 0px 0px 0px rgba(255,255,255,0.4),
+        24px 0px 0px 0px rgba(255,255,255,1);
+    }
+}
+
+@keyframes typing-black{
+    0%{
+        background-color: rgba(74, 74, 74, 1);
+        box-shadow: 12px 0px 0px 0px rgba(74, 74, 74, 0.4),
+        24px 0px 0px 0px rgba(74, 74, 74, 0.2);
+    }
+    50% {
+        background-color: rgba(74, 74, 74, 0.4);
+        box-shadow: 12px 0px 0px 0px rgba(74, 74, 74, 1),
+        24px 0px 0px 0px rgba(74, 74, 74,0.4);
+    }
+    100%{ background-color: rgba(74, 74, 74, 0.2);
+        box-shadow: 12px 0px 0px 0px rgba(74, 74, 74,0.4),
+        24px 0px 0px 0px rgba(74, 74, 74,1);
+    }
+}
+@keyframes typing{
+    0%{
+        background-color: rgba(255,255,255, 1);
+        box-shadow: 12px 0px 0px 0px rgba(255,255,255,0.4),
+        24px 0px 0px 0px rgba(255,255,255,0.2);
+    }
+    50% {
+        background-color: rgba(255,255,255, 0.4);
+        box-shadow: 12px 0px 0px 0px rgba(255,255,255,1),
+        24px 0px 0px 0px rgba(255,255,255,0.4);
+    }
+    100%{ background-color: rgba(255,255,255, 0.2);
+        box-shadow: 12px 0px 0px 0px rgba(255,255,255,0.4),
+        24px 0px 0px 0px rgba(255,255,255,1);
+    }
+}
+
+
+/*inputsput start*/
+form.convFormDynamic {
+
+    margin: 10px auto 15px;
+    padding: 0 !important;
+    position: relative;
+    z-index: 100000;
+    background-color: #fff;
+    font-family: 'Inter';
+    -webkit-box-shadow: inset 0px -1px 0px 0px rgba(232,232,234,1);
+-moz-box-shadow: inset 0px -1px 0px 0px rgba(232,232,234,1);
+box-shadow: inset 0px -1px 0px 0px rgba(232,232,234,1);
+}
+/*inputsbox end*/
+
+
+form.convFormDynamic textarea.userInputDynamic {
+    border: none;
+    padding: 7px 10px;
+    outline: none;
+    font-size: 0.905rem;
+    float: left;
+    width: calc(100% - 103px);
+    line-height: 1.3em;
+    min-height: 1.7em;
+    max-height: 10rem;
+    display: block;
+    margin-right: 2.5%;
+    background-color: transparent;
+}
+
+
+
+
+form.convFormDynamic input.userInputDynamic {
+    border: none;
+    padding: 7px 10px;
+    outline: none;
+    font-size: 0.905rem;
+    float: left;
+    width: calc(100% - 70px);
+    line-height: 1.3em;
+    min-height: 1.7em;
+    max-height: 10rem;
+    display: block;
+    max-width: 88%;
+    margin-right: 2.5%;
+}
+
+div#chat.conv-form-wrapper div#messages {
+
+    height: auto !important;
+    overflow-y: scroll;
+    font-family: 'Inter';
+}
+div#chat.conv-form-wrapper div#messages:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+div#chat.conv-form-wrapper {
+    position: relative;
+    margin: 0 auto;
+}
+div#chat.conv-form-wrapper div.wrapper-messages {
+    position: relative;
+    height: 500px;
+    max-height: 71vh;
+    overflow-y: scroll;
+}
+@media (min-width: 767px) {
+div#chat:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    display: block;
+    height: 30px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: linear-gradient(#fff, transparent);
+ 
+    }
+}
+@media (max-width: 767px) {
+    div#chat.conv-form-wrapper div.wrapper-messages, div#chat.conv-form-wrapper div#messages {
+        max-height: 60vh;
+        width: 92%;
+        margin: 0 auto
+    }
+}
+
+div#chat div.wrapper-messages::-webkit-scrollbar, div#feed ul::-webkit-scrollbar, div#chat div.options::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    /* remove scrollbar space */
+    background: transparent;
+    /* optional: just make scrollbar invisible */
+}
+input[type="text"].userInputDynamic.error {
+    color: #E50000 !important;
+}
+input[type="text"].userInputDynamic {
+    border-radius: 3px;
+    margin: 7px 10px;
+}
+
+textarea.userInputDynamic.error {
+    color: #E50000 !important;
+}
+
+textarea.userInputDynamic {
+    border-radius: 3px;
+    margin: 7px 10px;
+}
+
+div#chat.conv-form-wrapper div#messages {
+    transition: bottom 0.15s, padding-bottom 0.15s;
+    position: absolute;
+
+    bottom: 0;
+    height: auto !important;
+    width: 100%;
+    padding-bottom: 20px;
+    /*max-height: 71vh;*/
+}
+div#chat div.options {
+    word-wrap: normal;
+    white-space: nowrap;
+    overflow-x: scroll;
+    position: absolute;
+    bottom: 100%;
+    width: 100%;
+    transform: translateY(-5px);
+    background-color: #fff;
+    margin-bottom: -51px;
+    text-align: center;
+}
+div#chat div.options:after {
+    content: '';
+    display: table;
+    clear: both;
+
+}
+div#chat div.options div.option {
+    padding: 9px 24px;
+    border: 1px solid #005BE5;
+    display: inline-block;
+    margin: 5px;
+    background: #005BE5;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+div#chat.conv-form-wrapper div.message {
+    animation: slideTop 0.15s ease;
+}
+div#chat.conv-form-wrapper div.message:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+div#chat.conv-form-wrapper  div.message.ready {
+    animation: bounceIn 0.2s ease;
+    transform-origin: 0 0 0;
+}
+div#chat.conv-form-wrapper  div#messages div.message {
+    border-radius: 20px;
+    padding: 12px 22px;
+    font-size: 0.905rem;
+    color: #333;
+    display: inline-block;
+    padding: 10px 15px 8px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    float: right;
+    clear: both;
+    max-width: 95%;
+    word-wrap: break-word;
+}
+div#chat.conv-form-wrapper  div#messages div.message.to {
+    background: #E8E8EA;
+    color: #76828A;
+    float: left;
+    border-top-left-radius: 0;
+}
+div#chat.conv-form-wrapper div#messages div.message.from {
+    background: #005be5;
+    color: #fff;
+    border-bottom-right-radius: 0;
+}
+.message.to+.message.from, .message.from+.message.to {
+    margin-top: 15px;
+}
+@keyframes slideTop {
+    0% {
+        margin-bottom: -25px;
+    }
+    100% {
+        margin-bottom: 0;
+    }
+}
+
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.75, 0.75);
+    }
+    100% {
+        transform: scale(1.0, 1.0);
+    }
+}
+div#chat div.options div.option:hover {
+    background: rgba(0, 91, 229, 0.8);
+    cursor: pointer;
+};
+div#chat div.options div.option:focus {
+    background: rgba(0, 91, 229, 0.5) ;
+    color: #fff !important ;
+    transition: 100ms
+};
+
+
+}
+div#chat div.options div.option.selected {
+    background: #0c52ba;
+    color: #fff;
+}
+div#chat div.options div.option.selected:hover {
+    background: #3780ed;
+}
+
+form.convFormDynamic button.submit {
+    padding: 7px 3px 3px;
+    border: none;
+    float: left;
+    margin: 5px;
+    color: #739ee0;
+    cursor: pointer;
+    font-size: 1.1rem;
+    height: 35px;
+    background: transparent;
+    outline: none !important;
+}
+
+
+form.convFormDynamic button.submit:hover {
+    background: rgba(0, 91, 229, 0.1);
+    transition: 100ms;
+    color: #005be5 !important ;
+
+}
+
+form.convFormDynamic button.submit:focus {
+    background: rgba(0, 91, 229, 0.5);
+
+}
+
+form.convFormDynamic button.submit:active {
+    background: rgba(0, 91, 229, 0.5) ;
+    color: #fff !important ;
+    transition: 100ms
+
+}
+
+
+button.submit.glow {
+    box-shadow: 0 0 10px 5px rgba(6, 197, 166, 0.4);
+}
+.no-border {
+    border: none !important;
+}
+.dragscroll {
+    cursor: grab;
+}
+div#chat div#messages::-webkit-scrollbar, div#feed ul::-webkit-scrollbar {
+    width: 0px;
+    /* remove scrollbar space */
+    background: transparent;
+    /* optional: just make scrollbar invisible */
+}
+span.clear {
+    display: block;
+    clear: both;
+}
+
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    margin: 100px auto;
+    background-color: #333;
+  
+    border-radius: 100%;  
+    -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+    animation: sk-scaleout 1.0s infinite ease-in-out;
+  }
+  
+  @-webkit-keyframes sk-scaleout {
+    0% { -webkit-transform: scale(0) }
+    100% {
+      -webkit-transform: scale(1.0);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes sk-scaleout {
+    0% { 
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    } 100% {
+      -webkit-transform: scale(1.0);
+      transform: scale(1.0);
+      opacity: 0;
+    }
+  }
+
+
+.spinLoader,
+.spinLoader:before,
+.spinLoader:after {
+    background: #005be5 !important;
+
+    border-radius: 100%;  
+    -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+    animation: sk-scaleout 1.0s infinite ease-in-out;
+
+    margin: 100px auto;
+  width: 40px;
+    height: 40px;
+}
+.spinLoader {
+    color: #005be5 !important;
+    text-indent: -9999em;
+    margin: 50% auto;
+    position: relative;
+    font-size: 11px;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+@-webkit-keyframes spinLoaderChat {
+    0% { -webkit-transform: scale(0) }
+    100% {
+      -webkit-transform: scale(1.0);
+      opacity: 0;
+    }
+  }
+@keyframes spinLoaderChat {
+    0% { 
+        -webkit-transform: scale(0);
+        transform: scale(0);
+      } 100% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+        opacity: 0;
+      }
+    }
+  

@@ -1,0 +1,267 @@
+body{
+    font-family: 'Inter' !important;
+    text-rendering: optimizeLegibility !important;
+}
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  body {
+    height: 100%;
+    padding: 0;
+    overflow: auto;
+    margin: 0;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+  }
+
+.content{
+    height: calc(100vh - 84px);
+    overflow-y: scroll;
+}
+
+header{
+    font-weight: 500;
+    overflow: hidden;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#19fc43+0,ff195f+99&0.1+2,0.1+100 */
+background: #fafafa
+
+}
+
+.navbar li a  {
+    font-weight: 500;
+   color: inherit ;
+    margin-left: 0.5rem;
+
+
+}
+h1{
+
+    font-weight: 600 !important;
+    font-size: 42px !important;
+}
+h2{
+
+    font-weight: 600 !important;
+}
+
+h3{
+    font-size: 20px !important ;
+}
+
+h5{
+    font-size: 16px !important;
+
+}
+
+.text-white{
+    color: #FFF !important;
+}
+
+.text-black{
+    color: #000 !important;
+}
+
+.text-secondary{
+    color: #7D858B !important;
+}
+
+.mt-6{
+    margin-top: 4.75rem;
+}
+
+.act{
+    color: #19FC43 !important;
+    
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+
+    background-color: transparent !important ;
+    -webkit-box-shadow: 0px 3px 0px 0px #3E464F;
+-moz-box-shadow: 0px 3px 0px 0px #3E464F;
+box-shadow: 0px 3px 0px 0px #3E464F1);
+
+}
+
+.active-bg{
+    background-color: #19FC43 !important;
+    height: 8px;
+    width: 8px;
+    margin-left: -20px;
+    margin-top: 48px;
+}
+
+.avatar{
+    background-image: url(../assets/louilo.png);
+    width: 4rem; 
+    height: 4rem; 
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 150% 150%;
+    
+}
+
+.avatar2{
+    background-image: url(../assets/louilo.png);
+    width: 3rem; 
+    height: 3rem; 
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 150% 150%;
+}
+
+
+
+
+.progress{
+    height: 2px !important ;
+
+}
+
+.progress-bar{
+    background-color: #020219 !important ;
+}
+
+p{
+    line-height: 1.6;
+}
+
+number{
+    font-size: 68px;
+    font-weight: 600; 
+    line-height: 1;
+}
+number2{
+    font-size: 32px;
+    font-weight: 600; 
+    line-height: 1;
+}
+
+
+
+date{
+    font-size: 18px !important;
+    text-transform: uppercase;
+    line-height: 0.9 !important;
+    line-height: 1;
+}
+
+.periode{
+    text-align: right;
+}
+
+.project-nav{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.nav-pills .nav-link {
+    border-radius: 0px !important;
+    color: #020219 !important;
+    font-weight: 500;
+   
+}
+
+.italic{
+    font-style: italic;
+    color: #76828A;
+}
+
+.left-date{
+    text-align: right;
+}
+
+.fit{
+    width: 100%;
+}
+
+.fit2{
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+
+}
+.scroll{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+footer{
+    font-weight: 500;
+    background-color: #E4E5E6;
+
+    
+}
+
+.btn-xl{
+    height: 3rem;
+    /* font-size: 16px; */
+    padding: 0.875rem 2rem !important;
+    background-color: #3E464F !important;
+    border: #3E464F!important;
+    border-radius: 0px !important;
+
+}
+
+.nav{
+    text-transform: uppercase !important;
+}
+
+.btn-rick{
+    padding: 9px 24px !important;
+    border: 1px solid #005BE5 !important;
+    display: inline-block !important;
+    margin: 5px !important; 
+    background: #FFF!important;
+    color: #005BE5  !important;
+    cursor: pointer !important;
+    border-radius: 20px !important;
+    font-size: 0.9rem !important; 
+}
+
+.btn-rick:focus {
+    background: #005BE5!important;
+    color: #FFF  !important;
+}
+
+.btn-rick:hover {
+    background: #005BE5!important;
+    color: #FFF  !important;
+}
+
+.rick_video{
+    background: #E8E8EA;
+    color: #76828A;
+top: 0;
+    border-top-left-radius: 0;
+    border-radius: 20px;
+    padding: 12px 22px;
+    font-size: 0.905rem;
+    color: #333;
+    display: inline-block;
+    padding: 10px 15px 8px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+
+    clear: both;
+    max-width: 95%;
+}
+
+
+.article > section > a:hover {
+    text-decoration: none !important ;
+}
